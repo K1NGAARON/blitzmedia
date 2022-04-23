@@ -85,7 +85,6 @@ ul li:before {
     font-size: 18px;
 }
 
-
 /* BUTTONS */
 .primary-btn {
     font-weight: 700;
@@ -223,22 +222,6 @@ ul li:before {
     position: relative;
     overflow: hidden;
 }
-
-/* #hero-section:before {
-    content: '';
-    left: 0;
-    top: 0;
-    position: absolute;
-    filter: blur(200px);
-    width: 450px;
-    height: 450px;
-    background: #0066ff;
-    line-height: 700px;
-    border-radius: 50%;
-    z-index: 9;
-    text-align: center;
-    transform: translate(-30%, -50%);
-} */
 
 #hero-section .row {
     max-width: 1600px;
@@ -544,6 +527,131 @@ ul li:before {
     border-radius: 50%;
     text-align: center;
 }
+
+
+@media all and (max-width: 540px) {
+    .topnav-content {
+        display: none;
+    }
+
+    .hero-right-circles {
+        display: none;
+    }
+
+    .topnav-content-sm {
+        display: flex;
+    }
+
+    .row {
+        flex-direction: column;
+        margin: 30px auto;
+    }
+
+    .row.row-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .col {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .row.flex-col {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .reviews-quote {
+        font-size: 20px;
+    }
+
+    .small-headline {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .primary-btn {
+        margin: auto auto;
+    }
+
+    img:not(#header-logo) {
+        max-width: 100%;
+        margin: 40px auto;
+    }
+
+    .services-wrapper {
+        margin: 30px auto;
+    }
+
+    .services-wrapper:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .services-wrapper:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    .technologies-wrapper {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .technologies-item {
+        margin: 10px!important;
+        padding: 10px;
+        width: 40%;
+        flex: 1 1 40%;
+    }
+
+    .hide-sm {
+        display: none;
+    }
+
+    #about .row .col img {
+        display: none;
+    }
+
+    #cta-section,
+    #contact {
+        padding: 0 30px;
+    }
+
+    #cta-section .row .col {
+        width: 100%!important;
+    }
+
+    .margin-bottom-20 {
+        margin-bottom: 0;
+    }
+
+    .margin-top-20 {
+        margin-top: 0;
+    }
+
+    .contact-form-wrapper {
+        width: 100%;
+        padding: 30px;
+    }
+
+}
+
+@media all and (max-width: 860px) {
+
+}
+
 
 @media all and (min-width: 1600px) {
     p,
