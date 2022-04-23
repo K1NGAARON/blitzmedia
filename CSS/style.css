@@ -26,7 +26,7 @@ html {
 h1 {
     font-weight: 800;
     font-size: 52px;
-    color: var(--white);
+    color: var(--black);
     line-height: 1.2;
     margin-bottom: 16px;
 }
@@ -218,13 +218,13 @@ ul li:before {
 }
 
 #hero-section {
-    background-color: #0e1b38;
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     position: relative;
     overflow: hidden;
 }
 
-#hero-section:before {
+/* #hero-section:before {
     content: '';
     left: 0;
     top: 0;
@@ -238,7 +238,7 @@ ul li:before {
     z-index: 9;
     text-align: center;
     transform: translate(-30%, -50%);
-}
+} */
 
 #hero-section .row {
     max-width: 1600px;
@@ -247,7 +247,7 @@ ul li:before {
 #hero-section .hero-right-circles {
     width: 700px;
     height: 700px;
-    background: white;
+    background: black;
     line-height: 800px;
     border-radius: 50%;
     text-align: center;
@@ -261,7 +261,7 @@ ul li:before {
 #hero-section .hero-right-circles:before {
     width: 100%;
     height: 100%;
-    background: white;
+    background: black;
     line-height: 100%;
     border-radius: 50%;
     text-align: center;
@@ -278,7 +278,7 @@ ul li:before {
 #hero-section .hero-right-circles:after {
     width: 100%;
     height: 100%;
-    background: white;
+    background: black;
     line-height: 100%;
     border-radius: 50%;
     text-align: center;
@@ -458,6 +458,11 @@ ul li:before {
     border-radius: 9px;
     border: 1px solid var(--primary);
     font-size: 18px;
+}
+
+.contact-form-wrapper input:focus-visible {
+    border: 3px solid var(--primary);
+    outline: none;
 }
 
 .contact-form-wrapper #gdpr {
