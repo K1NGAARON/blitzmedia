@@ -85,6 +85,11 @@ ul li:before {
     font-size: 18px;
 }
 
+.focus-text {
+    font-weight: 700;
+    color: var(--primary);
+}
+
 /* BUTTONS */
 .primary-btn {
     font-weight: 700;
