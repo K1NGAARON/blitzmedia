@@ -319,15 +319,6 @@ ul li:before {
     transition: 0.5s;
 }
 
-.services-wrapper a {
-    transition: var(--transition);
-}
-
-.services-wrapper a:hover {
-    padding-left: 10px;
-    transition: var(--transition);
-}
-
 /* TECHNOLOGIES */
 #technologies {
     background-color: #f8f9fa;
