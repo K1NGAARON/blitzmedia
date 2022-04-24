@@ -111,7 +111,7 @@ ul li:before {
     width: 100%;
     position: fixed;
     background-color: #0e1b38;
-    z-index: 5;
+    z-index: 9;
 }
 
 .topnav .header-col a:hover {
