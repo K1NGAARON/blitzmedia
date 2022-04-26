@@ -526,6 +526,23 @@ ul li:before {
 
 
 @media all and (max-width: 540px) {
+    .topnav .header-col:nth-child(1) {
+        width: 30%;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+    
+    .topnav .header-col:nth-child(2) {
+        width: 70%;
+        text-align: right;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    .topnav-content-sm .header-col .icon {
+        font-size: 28px;
+    }
+
     .topnav-content {
         display: none;
     }
@@ -536,6 +553,22 @@ ul li:before {
 
     .topnav-content-sm {
         display: flex;
+    }
+
+    .small-menu-wrapper {
+        background-color: var(--white);
+        box-shadow: var(--box-shadow-dark);
+    }
+
+    .small-menu-wrapper.active {
+        display: flex;
+    }
+
+    .small-menu-content  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        padding: 10px 0;
     }
 
     .row {
