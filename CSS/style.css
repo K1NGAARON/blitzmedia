@@ -73,14 +73,14 @@ ul {
 
 ul li:before {
     content: "✓";
-    color: var(--primary);
+    color: var(--secondary);
     font-weight: 700;
     font-size: 20px;
     margin-right: 10px;
 }
 
 .small-headline {
-    color: var(--secondary);
+    color: var(--primary);
     font-weight: 700;
     font-size: 18px;
 }
@@ -571,6 +571,10 @@ ul li:before {
         padding: 10px 0;
     }
 
+    #menu-toggle {
+        color: var(--white);
+    }
+
     .row {
         flex-direction: column;
         margin: 30px auto;
@@ -670,18 +674,12 @@ ul li:before {
         display: none;
     }
 
-    #cta-section,
     #contact {
         padding: 0 30px;
     }
 
-    #cta-section .row .col {
-        width: 100%!important;
-        padding: 0;
-    }
-
-    #cta-section .row .col p {
-        font-size: 20px;
+    #cta-section {
+        display: none;
     }
 
     .margin-bottom-20 {
