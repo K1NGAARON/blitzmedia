@@ -20,6 +20,7 @@ html {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 /* TEXT */
@@ -153,7 +154,7 @@ ul li:before {
 }
 
 .topnav .header-col:nth-child(1) {
-    width: 15%;
+    width: fit-content;
     justify-content: flex-start;
     margin-left: 0;
 }
@@ -289,6 +290,7 @@ ul li:before {
 
 #cta-section .row p {
     font-size: 24px;
+    margin-bottom: 0;
 }
 
 #cta-section .row .col:nth-child(1) {
@@ -314,14 +316,15 @@ ul li:before {
     border-radius: 9px;
     padding: 40px;
     text-align: center;
+    transition: var(--transition);
 }
 
 .services-wrapper h3 {
     margin-top: 20px;
 }
 .services-wrapper:hover {
-    box-shadow: var(--box-shadow);
-    transition: 0.5s;
+    border: 2px solid var(--primary);
+    transition: var(--transition);
 }
 
 /* TECHNOLOGIES */
@@ -371,7 +374,7 @@ ul li:before {
 
 .reviews-quote {
     color: var(--primary);
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .reviews-quote:before {
@@ -741,7 +744,7 @@ ul li:before {
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .small-headline {
