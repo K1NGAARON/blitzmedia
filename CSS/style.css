@@ -327,6 +327,11 @@ ul li:before {
     transition: var(--transition);
 }
 
+.services-wrapper .services-img {
+    width: 100px;
+    height: auto;
+}
+
 /* TECHNOLOGIES */
 #technologies {
     background-color: #f8f9fa;
