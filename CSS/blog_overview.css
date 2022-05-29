@@ -1,0 +1,31 @@
+#blog-intro .row h1 {
+    font-size: 50px;
+}
+
+#blog-intro .row p {
+    max-width: 720px;
+    text-align: center;
+}
+
+#blog-intro .blog-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--light-grey);
+    padding: 10px 30px;
+    border-radius: 9px;
+}
+
+#blog-intro .blog-filter a {
+    color: var(--primary-faded);
+}
+
+#blog-intro .blog-filter a.active {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+#blog-intro .blog-filter a:hover {
+    text-decoration: underline;
+}
