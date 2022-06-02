@@ -110,6 +110,10 @@
     margin: 40px 0;
 }
 
+#myTopnav .topnav-content a:hover {
+    text-decoration: none;
+}
+
 @media all and (max-width: 540px) {
     #blog-intro .row h1 {
         font-size: 40px;

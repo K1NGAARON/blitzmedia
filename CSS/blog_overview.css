@@ -63,6 +63,10 @@
     padding: 20px;
 }
 
+#myTopnav .topnav-content a:hover {
+    text-decoration: none;
+}
+
 
 /* WAIT UNTIL MORE BLOGS */
 #blog-intro .blog-filter.hidden {
