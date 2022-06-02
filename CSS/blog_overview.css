@@ -29,3 +29,42 @@
 #blog-intro .blog-filter a:hover {
     text-decoration: underline;
 }
+
+#blog-content {
+    background-color: var(--light-grey);
+}
+
+#blog-content .row {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 20px;
+}
+
+#blog-content .blog-post-listing {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-dark);
+}
+
+#blog-content .blog-post-listing .col {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#blog-content .blog-post-listing img {
+    width: 100%;
+}
+
+#blog-content .blog-post-listing .col:nth-child(2) {
+    padding: 20px;
+}
+
+
+/* WAIT UNTIL MORE BLOGS */
+#blog-intro .blog-filter.hidden {
+    display: none;
+}
