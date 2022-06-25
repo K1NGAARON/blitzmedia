@@ -38,7 +38,7 @@ function createBlogListing() {
                 ${blogsArray[i].blogIntro}
                 </p>
                 <a href="${blogsArray[i].blogURL}">
-                    Read more ➔
+                    Lees verder ➔
                 </a>
             </div>
         </div>
