@@ -65,6 +65,14 @@
     color: var(--primary);
 }
 
+.blog-body .faq li {
+    font-weight: 700;
+}
+
+.blog-body .faq p {
+    padding-inline-start: 40px;
+}
+
 .blog-body .row h2 {
     font-size: 34px;
     text-align: left;
