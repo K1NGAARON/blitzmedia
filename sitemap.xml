@@ -9,18 +9,23 @@
 
 <url>
   <loc>https://blitz-media.io/</loc>
-  <lastmod>2022-05-29T20:34:14+00:00</lastmod>
-  <priority>1</priority>
+  <lastmod>2022-07-02T19:02:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blitz-media.io/blog/overview.html</loc>
+  <lastmod>2022-07-02T19:02:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blitz-media.io/cookies.html</loc>
-  <lastmod>2022-05-29T20:34:14+00:00</lastmod>
+  <lastmod>2022-07-02T19:02:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blitz-media.io/index.html</loc>
-  <lastmod>2022-05-29T20:34:14+00:00</lastmod>
-  <priority>0.90</priority>
+  <lastmod>2022-07-02T19:02:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
