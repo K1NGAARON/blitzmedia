@@ -20,6 +20,12 @@ const blogsArray = [
         'blogTitle' : 'Wat kost een professionele website?',
         'blogIntro' : 'Ontdek de verschillende aspecten bij het bepalen van een prijs van een nieuwe website.',
         'blogURL' : '/blog/wat-kost-een-professionele-website.html'
+    },
+    {
+        'blogIMG' : '../IMG/blog/professionele_website_hero.jpg',
+        'blogTitle' : 'Een professionele website laten maken',
+        'blogIntro' : 'Bij Blitz Media kun je terecht voor een professionele website die volledig op maat gemaakt wordt.',
+        'blogURL' : '/blog/een-professionele-website-laten-maken.html'
     }
 ];
 

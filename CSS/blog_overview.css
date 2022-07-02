@@ -56,7 +56,8 @@
 }
 
 #blog-content .blog-post-listing img {
-    width: 100%;
+    width: 600px;
+    height: auto;
 }
 
 #blog-content .blog-post-listing .col:nth-child(2) {
