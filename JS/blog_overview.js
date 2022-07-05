@@ -5,9 +5,6 @@ $('.blog-filter a').on('click', function(e) {
     $(this).addClass('active');
 
     let selectedTopic = $(this).text();
-
-    // Hide everything
-    // Show clicked element label
 });
 
 
