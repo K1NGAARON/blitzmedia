@@ -86,6 +86,7 @@ ul li:before {
     color: var(--primary);
     font-weight: 700;
     font-size: 18px;
+    margin-bottom: 0;
 }
 
 .focus-text {
@@ -423,6 +424,55 @@ ul li:before {
     margin-top: 0;
 }
 
+/* STEPS */
+#steps {
+    background-color: var(--light-grey);
+}
+
+#steps .steps-wrapper {
+    gap: 20px;
+}
+
+#steps .steps-wrapper .step-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+    background-color: var(--white);
+    border-radius: 9px;
+    border-bottom: 3px solid #dfdfdf;
+}
+
+#steps .steps-wrapper .step-item .col {
+    margin: unset;
+    padding: 20px;
+    width: unset;
+}
+
+#steps .steps-wrapper .step-item .col:nth-child(1) {
+    width: 20%;
+}
+
+#steps .steps-wrapper .step-item .col:nth-child(1) p {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--primary);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#steps .steps-wrapper .step-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#steps .steps-wrapper .step-item p {
+    font-size: 14px;
+}
+
 /* CONTACT FORM */
 .contact-form-wrapper {
     display: flex;
@@ -755,7 +805,7 @@ ul li:before {
     }
 
     .small-headline {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .row {
