@@ -23,6 +23,12 @@ const blogsArray = [
         'blogTitle' : 'Een professionele website laten maken',
         'blogIntro' : 'Bij Blitz Media kun je terecht voor een professionele website die volledig op maat gemaakt wordt.',
         'blogURL' : '/blog/een-professionele-website-laten-maken.html'
+    },
+    {
+        'blogIMG' : '../IMG/blog/Google Ads Manager Update.jpg',
+        'blogTitle' : 'Google Ads Manager updates',
+        'blogIntro' : 'Ontdek de Google Ads Manager update met de 7 grootste veranderingen.',
+        'blogURL' : '/blog/google-ads-manager-update.html'
     }
 ];
 
@@ -46,7 +52,7 @@ function createBlogListing() {
             </div>
         </div>
         `;
-        blogsTarget.insertAdjacentHTML("beforeend", blogTemplate);
+        blogsTarget.insertAdjacentHTML("afterbegin", blogTemplate);
     };
 };
 

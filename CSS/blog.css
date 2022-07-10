@@ -55,7 +55,8 @@
     text-align: left;
 }
 
-.blog-body .row ul li {
+.blog-body .row ul li,
+.blog-body .row ol li {
     padding-inline-start: 20px;
     margin: 10px 0;
 }
@@ -71,6 +72,10 @@
 
 .blog-body .faq p {
     padding-inline-start: 40px;
+}
+
+.blog-body .bold {
+    font-weight: 700;
 }
 
 .blog-body .row h2 {
