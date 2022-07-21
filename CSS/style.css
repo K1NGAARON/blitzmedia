@@ -585,6 +585,11 @@ ul li:before {
     text-align: center;
 }
 
+@media all and (min-width: 540px) and (max-width: 1200px) {
+    h1 {
+        font-size: 34px;
+    }
+}
 
 @media all and (max-width: 540px) {
     .topnav .header-col:nth-child(1) {
