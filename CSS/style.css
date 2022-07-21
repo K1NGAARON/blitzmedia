@@ -431,13 +431,14 @@ ul li:before {
 
 #steps .steps-wrapper {
     gap: 20px;
+    max-width: 1200px!important;
 }
 
 #steps .steps-wrapper .step-item {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 25%;
+    width: fit-content;
     background-color: var(--white);
     border-radius: 9px;
     border-bottom: 3px solid #dfdfdf;
