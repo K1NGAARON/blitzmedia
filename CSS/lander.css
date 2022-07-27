@@ -1,13 +1,16 @@
 /* PROJECTS */
-#projects {
+#projects,
+#services {
     background-color: var(--light-grey);
 }
 
-#projects .row {
+#projects .row,
+#services .row {
     gap: 20px;
 }
 
-#projects .project-post {
+#projects .project-post,
+#services .project-post {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
@@ -15,27 +18,36 @@
     border-bottom: 3px solid #dfdfdf;
 }
 
-#projects .row .project-post .col {
+#projects .row .project-post .col,
+#services .row .project-post .col {
     width: 100%;
     margin: unset;
     padding: unset;
 }
 
-#projects .row .project-post .col:nth-child(2) {
+#projects .row .project-post .col:nth-child(2),
+#services .row .project-post .col:nth-child(2) {
     padding: 20px;
 }
 
-#projects .project-post img {
+#projects .project-post img,
+#services .project-post img {
     width: 100%;
 }
 
-#projects .project-post h5 {
+#projects .project-post h5,
+#services .project-post h5 {
     font-family: Poppins;
     font-weight: 700;
     font-size: 18px;
 }
 
-#projects .project-post p {
+#projects .project-post p,
+#services .project-post p {
     font-family: Poppins;
     font-size: 14px;
 }
+
+/* ADD PROJECT TEMPLATE */
+
+/* ADD SLIDER */
