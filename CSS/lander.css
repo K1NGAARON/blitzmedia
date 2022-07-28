@@ -49,5 +49,31 @@
 }
 
 /* ADD PROJECT TEMPLATE */
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: var(--box-shadow);
+}
+
+.project-wrapper .col {
+    width: unset;
+    margin: unset;
+    padding: unset;
+}
+
+.project-wrapper .col:nth-child(1) {
+    margin: 0;
+    padding: 0;
+}
+
+.project-wrapper .col:nth-child(2) {
+    padding: 20px;
+}
+
+
+
+
 
 /* ADD SLIDER */
