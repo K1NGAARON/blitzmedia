@@ -26,13 +26,19 @@
 }
 
 #projects .row .project-post .col:nth-child(2),
+#services .row .project-post .col:nth-child(1),
 #services .row .project-post .col:nth-child(2) {
     padding: 20px;
 }
 
+#services .row .project-post .col:nth-child(1) {
+    padding-bottom: 0;
+}
+
 #projects .project-post img,
 #services .project-post img {
-    width: 100%;
+    width: 100px;
+    height: auto;
 }
 
 #projects .project-post h5,
