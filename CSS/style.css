@@ -118,7 +118,7 @@ ul li:before {
 /* HEADER */
 .topnav {
     width: 100%;
-    position: fixed;
+    position: sticky;
     background-color: #0e1b38;
     z-index: 9;
 }
