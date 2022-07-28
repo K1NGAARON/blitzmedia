@@ -20,12 +20,39 @@ const projectShowcase = [
         'intro' : '',
         'url' : ''
     }
-]
+];
 
 
 
-// CREATE PROJECTPOST
+// Create job post wrapper
+function createProject() {
+    for (let i = 0; i < jobsArray.length; i++) {
+        const projectTemplate = `
+            <div>
+                <col>
+                    <img src="${projectShowcase[i].img}" alt="${projectShowcase[i].title}">
+                </col>
+                <col>
+                    <h3>
+                        ${projectShowcase[i].title}
+                    </h3>
+                    <p>
+                        ${projectShowcase[i].intro}
+                    </p>
+                    <a href="${projectShowcase[i].url}">
+                        Lees verder
+                    </a>
+                </col>
+            </div>    
+        `;
+        projectHolder.insertAdjacentHTML("beforeend", projectTemplate);
+    };
+};
 
-// APPEND TO PROJECTHOLDER
+$(document).ready(function() {
+    createProject();
+});
+
+
 
 // CREATE SLIDER FUNCTION
