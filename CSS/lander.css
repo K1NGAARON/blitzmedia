@@ -1,6 +1,7 @@
 /* PROJECTS */
 #projects,
-#services {
+#services,
+#faq {
     background-color: var(--light-grey);
 }
 
