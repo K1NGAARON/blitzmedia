@@ -728,6 +728,10 @@ ul li:before {
 }
 
 @media all and (max-width: 540px) {
+    #hero-section .row {
+        margin-top: 100px;
+    }
+
     .topnav .header-col:nth-child(1) {
         width: 30%;
         justify-content: flex-start;
