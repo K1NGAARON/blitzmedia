@@ -1,5 +1,6 @@
 #blog-intro {
     padding-top: 60px;
+    background-color: var(--light-grey);
 }
 
 #blog-intro .row .col:nth-child(2) {
@@ -29,7 +30,8 @@
 }
 
 #blog-intro .header-tags-wrapper .header-tags {
-    background-color: var(--light-grey);
+    background-color: var(--primary);
+    color: var(--white);
     border-radius: 9px;
     padding: 10px 15px;
     font-size: 12px;
