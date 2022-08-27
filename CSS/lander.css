@@ -17,6 +17,7 @@
     background-color: var(--white);
     border-radius: 12px;
     border-bottom: 3px solid #dfdfdf;
+    width: calc((100% / 3) - 40px);
 }
 
 #projects .row .project-post .col,
