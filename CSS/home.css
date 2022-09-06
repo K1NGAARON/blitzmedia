@@ -81,6 +81,10 @@
 
 
 @media all and (max-width: 540px) {
+    #hero-section {
+        height: fit-content;
+    }
+
     #hero-section h1 {
         font-size: 30px;
     }
