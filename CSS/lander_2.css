@@ -35,16 +35,26 @@
 #hero-section {
     background-color: var(--background-dark);
     position: relative;
-    z-index: 3;
+    height: 40vh;
+    overflow: unset;
 }
 
 #hero-section .row {
     align-items: flex-start;
     gap: 20px;
+    margin-top: -80px;
 }
 
 #hero-section .col:nth-child(1) * {
     color: var(--white);
+}
+
+#hero-section .row .col:nth-child(1) {
+    width: 60%; 
+}
+
+#hero-section .row .col:nth-child(2) {
+    width: 40%;
 }
 
 #hero-section h1 {
@@ -79,6 +89,7 @@
     background-color: var(--white);
     padding: 20px;
     border-radius: 12px;
+    position: absolute;
 }
 
 .contact-form input {
@@ -102,6 +113,10 @@
     outline: none;
 }
 
+#social-proof {
+    background-color: var(--background-dark-accent);
+}
+
 #social-proof .row {
     align-items: flex-start;
     padding: 0 30px;
@@ -113,4 +128,5 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 0;
+    color: var(--white);
 }
