@@ -50,7 +50,6 @@
 
 #hero-section .row .col:nth-child(1) {
     width: 60%;
-    align-items: center;
 }
 
 #hero-section .row .col:nth-child(2) {
@@ -72,8 +71,9 @@
 }
 
 #hero-section img {
-    width: 300px;
+    width: 450px;
     height: auto;
+    opacity: 0.3;
 }
 
 #hero-section .primary-btn {
