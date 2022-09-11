@@ -146,10 +146,18 @@
 }
 
 @media all and (max-width: 720px) {
+    #hero-section .row h1 {
+        font-size: 30px;
+    }
+
+
+    #hero-section .row.f-row {
+        margin-top: 0!important;
+    }
 
     .section .row {
         flex-direction: column;
-        padding: 0 30px;
+        padding: 0;
     }
 
     .section.large .row {
@@ -160,6 +168,20 @@
     .section .row .col {
         width: 100%;
         margin: unset;
+    }
+
+    #social-proof .row {
+        align-items: center;
+    }
+
+    #social-proof .row .large,
+    #social-proof .row span {
+        font-size: 20px;
+    }
+
+    .section.large .row .primary-btn {
+        font-size: 14px;
+        padding: 15px 40px;
     }
 }
 
