@@ -15,4 +15,9 @@
     #services .services-wrap .project-post img {
         margin: 0 auto;
     }
+
+    #services .services-wrap .project-post h5,
+    #services .services-wrap .project-post a {
+        text-align: center;
+    }
 }
