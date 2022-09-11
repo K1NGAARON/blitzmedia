@@ -33,11 +33,11 @@ function animate(obj, initVal, lastVal, duration) {
     window.requestAnimationFrame(step);
     }
     
-    let text1 = document.getElementById('websites');
+    let websites = document.getElementById('websites');
 
     
     function load() {
-        animate(text1, 0, 17, 4000);
+        animate(websites, 0, 17, 4000);
     }
 
     

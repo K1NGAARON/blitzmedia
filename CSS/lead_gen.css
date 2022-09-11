@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+    .col,
+    .row.flex-col {
+        padding: 0 30px;
+    }
+
+    #services .project-post {
+        width: 100%;
+    }
+
+    #services .services-wrap {
+        padding: 0 30px;
+    }
+
+    #services .services-wrap .project-post img {
+        margin: 0 auto;
+    }
+}
