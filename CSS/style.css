@@ -212,7 +212,7 @@ ul li:before {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 0 30px;
+    padding: 0 30px;
 }
 
 .center-text {
