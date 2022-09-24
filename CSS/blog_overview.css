@@ -36,9 +36,10 @@
 
 #blog-content .row {
     max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0;
+    padding: 30px;
     gap: 20px;
+    flex-flow: row wrap;
 }
 
 #blog-content .blog-post-listing {
@@ -47,7 +48,7 @@
     background-color: var(--white);
     border-radius: 12px;
     box-shadow: var(--box-shadow-dark);
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
 }
 
 #blog-content .blog-post-listing .col {
@@ -73,4 +74,16 @@
 /* WAIT UNTIL MORE BLOGS */
 #blog-intro .blog-filter.hidden {
     display: none;
+}
+
+@media (max-width: 800px) {
+    #blog-content .row {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    #blog-content .blog-post-listing {
+        width: 100%;
+    }
+
 }
