@@ -47,6 +47,7 @@
     background-color: var(--white);
     border-radius: 12px;
     box-shadow: var(--box-shadow-dark);
+    width: calc(100% / 3);
 }
 
 #blog-content .blog-post-listing .col {
@@ -56,7 +57,7 @@
 }
 
 #blog-content .blog-post-listing img {
-    width: 600px;
+    width: 100%;
     height: auto;
 }
 

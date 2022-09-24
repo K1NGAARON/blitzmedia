@@ -27,7 +27,7 @@ const blogsArray = [
     {
         'blogIMG' : '../IMG/blog/Google Ads Manager Update.jpg',
         'blogTitle' : 'Google Ads Manager updates',
-        'blogIntro' : 'Ontdek de Google Ads Manager update met de 7 grootste veranderingen.',
+        'blogIntro' : 'Ontdek de Google Ads Manager update met de 7 grootste veranderingen die er in 2022 aan komen.',
         'blogURL' : '/blog/google-ads-manager-update.html'
     }
 ];
