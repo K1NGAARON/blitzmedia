@@ -1,3 +1,13 @@
+.row {
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+}
+
+.row.show {
+    transform: translateY(0);
+}
+
+
 @media (max-width: 768px) {
     .topnav-content-sm {
         justify-content: center;
