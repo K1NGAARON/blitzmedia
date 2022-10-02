@@ -16,4 +16,12 @@
     #hero-section .contact-form {
         margin-bottom: unset;
     }
+
+    .row {
+        transform: none;
+    }
+
+    .row.show {
+        transform: none;
+    }
 }
