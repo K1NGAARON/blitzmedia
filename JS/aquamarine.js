@@ -6,7 +6,7 @@ animateSections();
 
 
 function animateSections() {
-    const triggerBottom = window.innerHeight / 5 * 6
+    const triggerBottom = window.innerHeight / 5 * 5.5
 
     sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top

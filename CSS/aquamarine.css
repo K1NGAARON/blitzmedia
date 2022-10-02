@@ -18,10 +18,10 @@
     }
 
     .row {
-        transform: none;
+        transform: translateY(0);
     }
 
     .row.show {
-        transform: none;
+        transform: translateY(0)
     }
 }
