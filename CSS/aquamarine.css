@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .topnav-content-sm {
+        justify-content: center;
+    }
+    
+    #hero-section .contact-form {
+        margin-bottom: unset;
+    }
+}
