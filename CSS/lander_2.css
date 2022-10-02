@@ -198,6 +198,17 @@
     margin-top: -110px;
 }
 
+@media (max-width: 768px) {
+    #cases .cases-wrapper {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    #cases .cases-wrapper .cases-item {
+        width: 100%;
+    }
+}
+
 @media all and (max-width: 720px) {
     #hero-section .row h1 {
         font-size: 30px;
