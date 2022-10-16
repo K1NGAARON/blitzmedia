@@ -59,6 +59,10 @@ body {
     color: var(--white);
 }
 
+.section p.grey {
+    opacity: 0.5;
+}
+
 .section .small-headline {
     color: var(--primary);
     font-size: 22px;
