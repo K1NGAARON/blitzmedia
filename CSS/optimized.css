@@ -273,14 +273,17 @@ body {
 
 #review .review-quote {
     color: var(--white);
-    font-size: 40px;
     font-weight: 700;
 }
 
 #review .focus {
     color: var(--primary);
-    font-size: 40px;
     font-weight: 700;
+}
+
+#review .review-quote,
+#review .focus {
+    font-size: 46px;
 }
 
 #review .review-author {
