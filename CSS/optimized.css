@@ -248,6 +248,10 @@ body {
     height: 100%;
 }
 
+#review p {
+    opacity: 1;
+}
+
 #review .review-wrapper {
     display: flex;
     flex-flow: row wrap;
