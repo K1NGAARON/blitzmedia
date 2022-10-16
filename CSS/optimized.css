@@ -209,6 +209,10 @@ body {
     transition: var(--transition);
 }
 
+#hero .form-wrapper input.primary-btn:hover {
+    transform: scale(1.02);
+}
+
 #hero .logo-wrapper {
     display: flex;
     flex-flow: row wrap;
