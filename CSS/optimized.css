@@ -90,7 +90,7 @@ body {
 .section .row .col {
     width: 50%;
     padding: 0 30px;
-    /* flex: 1 0 400px; */
+    flex: 1 0 400px;
 }
 
 .section .row.flex-col {
