@@ -40,7 +40,10 @@ body {
 }
 
 .section h2 {
-
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--white);
 }
 
 .section h3 {
@@ -52,7 +55,16 @@ body {
 }
 
 .section p {
+    font-size: 18px;
+    color: var(--white);
+    opacity: 0.5;
+}
 
+.section .small-headline {
+    color: var(--primary);
+    font-size: 22px;
+    margin-bottom: 10px;
+    opacity: 1;
 }
 
 .section img {
@@ -146,12 +158,6 @@ body {
 
 #hero {
 
-}
-
-#hero .small-headline {
-    color: var(--primary);
-    font-size: 22px;
-    margin-bottom: 10px;
 }
 
 #hero .subheadline {
