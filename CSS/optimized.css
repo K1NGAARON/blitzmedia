@@ -229,6 +229,7 @@ body {
     background-color: var(--primary);
     color: var(--white);
     transition: var(--transition);
+    margin-top: 0;
 }
 
 #hero .form-wrapper input.primary-btn:hover {
@@ -351,4 +352,107 @@ body {
     font-size: 18px;
     color: var(--white);
     opacity: 0.5;
+}
+
+/* FAQ */
+#faq .row:nth-child(1) {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    justify-content: flex-start;
+}
+
+#faq .row:nth-child(2) {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+#faq .row h2 {
+    font-size: 40px;
+}
+
+#faq .row {
+    background-color: transparent;
+}
+
+#faq .accordion-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+#faq .accordion-list .accordion-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--background-accent);
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+#faq .accordion-list .accordion-item:hover {
+    cursor: pointer;
+}
+
+#faq .accordion-list .accordion-item .accordion-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#faq .accordion-list .accordion-item .accordion-head h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    opacity: 0.5;
+    transition: var(--transition);
+}
+
+#faq .accordion-list .accordion-item .accordion-head.active h5 {
+    opacity: 1;
+    transition: var(--transition);
+}
+
+#faq .accordion-list .accordion-item .accordion-head .icon {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#faq .accordion-list .accordion-item .accordion-head .icon:hover {
+    cursor: pointer;
+}
+
+#faq .accordion-list .accordion-item .accordion-head .icon.active {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+#faq .accordion-list .accordion-item .accordion-body {
+    display: none;
+}
+
+#faq .accordion-list .accordion-item .accordion-body.active {
+    display: block;
+}
+
+#faq .accordion-list .accordion-item .accordion-body p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: var(--white);
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    #faq .row h2 {
+        font-size: 26px;
+    }
 }
