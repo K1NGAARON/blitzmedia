@@ -44,6 +44,7 @@ body {
     font-weight: 700;
     line-height: 1.2;
     color: var(--white);
+    margin-bottom: 20px;
 }
 
 .section h3 {
@@ -91,6 +92,9 @@ body {
 }
 
 .section .row .col {
+    display: flex;
+    flex-direction: column;
+
     width: 50%;
     padding: 0 30px;
     flex: 1 0 400px;
@@ -98,6 +102,20 @@ body {
 
 .section .row.flex-col {
     flex-direction: column;
+}
+
+.section .row.center h2,
+.section .row.center p {
+    text-align: center;
+}
+
+.section .row .primary-btn {
+    margin-top: 20px;
+}
+
+.section .row.center .primary-btn {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .primary-btn {
@@ -236,7 +254,46 @@ body {
 
 
 
+#services .services-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
+#services .services-wrapper .item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1 0 200px;
+}
+
+#services .services-wrapper .item h3,
+#services .services-wrapper .item p {
+    color: var(--black);
+    text-align: center;
+}
+
+#services .services-wrapper .item h3 {
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+#services .services-wrapper .item a {
+    color: var(--primary);
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+#services .services-wrapper .item a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
 
 
 #review .row,
