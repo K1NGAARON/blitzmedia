@@ -514,6 +514,37 @@ body {
         color: var(--white);
         text-decoration: none;
     }
+    
+    .section .small-headline {
+        font-size: 18px;
+    }
+
+    #hero h1 {
+        font-size: 30px;
+    }
+
+    .section .row {
+        padding: 36px;
+    }
+
+    #hero .focus,
+    #hero .sub {
+        font-size: 20px;
+    }
+
+    #hero .form-wrapper {
+        flex-direction: column;
+    }
+
+    #hero .logo-wrapper {
+        margin-top: 10px;
+        gap: 0;
+    }
+
+    #hero .logo-wrapper img {
+        max-width: unset;
+        width: 45%;
+    }
 
 
     #faq .row h2 {
