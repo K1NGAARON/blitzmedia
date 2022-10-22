@@ -174,6 +174,15 @@ body {
     margin-top: 0;
 }
 
+#header .topnav-content-sm {
+    display: none;
+}
+
+#header .small-menu-wrapper {
+    display: none;
+}
+
+
 #footer .row {
     align-items: center;
     justify-content: space-between;
@@ -310,7 +319,6 @@ body {
     text-decoration: underline;
     transition: var(--transition);
 }
-
 
 #review .row,
 #review .row .col {
@@ -467,6 +475,47 @@ body {
 }
 
 @media (max-width: 768px) {
+    #header .row {
+        display: none;
+    }
+
+    #header .topnav-content-sm {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #header .small-menu-wrapper {
+        display: none;
+        background-color: var(--background-accent);
+        padding: 10px 0;
+        margin-top: 10px;
+        border-radius: 26px;
+    }
+
+    #header .small-menu-wrapper.active {
+        display: block;
+    }
+
+    #header .topnav-content-sm i {
+        font-size: 30px;
+        color: var(--white);
+    }
+
+    #header .small-menu-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 5px;
+    }
+
+    #header .small-menu-content a {
+        color: var(--white);
+        text-decoration: none;
+    }
+
+
     #faq .row h2 {
         font-size: 26px;
     }
