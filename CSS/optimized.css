@@ -97,7 +97,7 @@ body {
 
     width: 50%;
     padding: 0 30px;
-    flex: 1 0 400px;
+    flex: 1 0 350px;
 }
 
 .section .row.flex-col {
@@ -534,6 +534,7 @@ body {
 
     #hero .form-wrapper {
         flex-direction: column;
+        margin-top: 0;
     }
 
     #hero .logo-wrapper {
@@ -546,6 +547,30 @@ body {
         width: 45%;
     }
 
+    .section img:not(.logo) {
+        margin: 20px 0;
+    }
+
+    #review .review-quote, #review .focus {
+        font-size: 26px;
+    }
+
+    #review .col:nth-child(1) {
+        padding-right: 0;
+    }
+
+    #review .video-wrapper {
+        border-top-right-radius: 26px;
+        border-bottom-left-radius: 0;
+    }
+
+    #review .review-wrapper {
+        height: 100%;
+    }
+
+    #review .col:nth-child(2) {
+        padding: 30px;
+    }
 
     #faq .row h2 {
         font-size: 26px;
