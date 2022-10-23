@@ -535,6 +535,15 @@ body {
         padding: 36px;
     }
 
+    .section .row {
+        flex-direction: column;
+    }
+
+    .section .row .col {
+        width: 100%;
+        flex: 1 0 100%;
+    }
+
     #hero .focus,
     #hero .sub {
         font-size: 20px;
