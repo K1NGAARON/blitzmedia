@@ -65,7 +65,7 @@ body {
 }
 
 .section .small-headline {
-    color: var(--primary);
+    color: var(--white);
     font-size: 22px;
     margin-bottom: 10px;
     opacity: 1;
