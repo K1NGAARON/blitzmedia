@@ -528,12 +528,16 @@ body {
         font-size: 18px;
     }
 
+    #hero .row {
+        margin-top: 20px;
+    }
+
     #hero h1 {
         font-size: 30px;
     }
 
     .section .row {
-        padding: 36px;
+        padding: 20px;
     }
 
     .section .row {
@@ -543,6 +547,7 @@ body {
     .section .row .col {
         width: 100%;
         flex: 1 0 100%;
+        padding: 0;
     }
 
     #hero .focus,
