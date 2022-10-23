@@ -220,7 +220,7 @@ body {
     opacity: 1;
 }
 
-#hero .form-wrapper {
+#hero .form-wrapper form {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -235,15 +235,14 @@ body {
     border-radius: 9px;
     height: 60px;
     outline: none;
-    
     font-size: 18px;
-
+    color: var(--white);
     transition: background-color 200ms ease;
 }
 
 #hero .form-wrapper input:focus {
     background-color: hsla(0, 0%, 100%, 0.25);
-    color: #fff;
+    color: var(--white);
 }
 
 #hero .form-wrapper input.primary-btn {
@@ -541,7 +540,7 @@ body {
         font-size: 20px;
     }
 
-    #hero .form-wrapper {
+    #hero .form-wrapper form {
         flex-direction: column;
         margin-top: 0;
     }
