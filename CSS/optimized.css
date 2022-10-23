@@ -81,6 +81,10 @@ body {
     padding: 0 30px;
 }
 
+.section.hidden {
+    display: none;
+}
+
 .section .row {
     display: flex;
     flex-flow: row wrap;
@@ -310,7 +314,8 @@ body {
 #services .services-wrapper .item a {
     color: var(--primary);
     text-align: center;
-    margin-top: 10px;
+    margin-top: auto;
+    padding-top: 10px;
     text-decoration: none;
     transition: var(--transition);
 }
@@ -472,6 +477,10 @@ body {
     margin-top: 20px;
     color: var(--white);
     opacity: 0.5;
+}
+
+#faq a {
+    color: var(--white);
 }
 
 @media (max-width: 768px) {
