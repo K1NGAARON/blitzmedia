@@ -1,14 +1,28 @@
-function filterContent(e) {
-    
+function hideAll(e) {
+    $('.case-wrapper').addClass('hidden');
 }
+
 
 $('.filter-wrapper a').on('click', function(e) {
     e.preventDefault();
 
+    hideAll();
+
     $('.filter-wrapper a').removeClass('active')
     $(this).addClass('active');
 
-    let selectedTopic = $(this).text();
+    let activeContent = e.target.innerHTML.toLowerCase();
+    console.log(activeContent);
+
+    if (activeContent === 'all') {
+        $('.case-wrapper').removeClass('hidden');
+    } else if (activeContent === 'web development') {
+        $('.case-wrapper.web-development').removeClass('hidden');
+    } else if (activeContent === 'advertising') {
+        $('.case-wrapper.advertising').removeClass('hidden');
+    } else {
+        // Nothing
+    };
 });
 
 
@@ -19,7 +33,7 @@ const casesContent = [
         'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
         'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
         'postLink' : 'google.com',
-        'category' : 'webdev',
+        'category' : 'web-development',
     },
     {
         'title' : 'The B2B paid ads strategy for Sunday',
