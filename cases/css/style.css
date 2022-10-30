@@ -65,10 +65,12 @@
 
 #content .case-wrapper h3 {
     font-weight: 700;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
 #content .case-wrapper p {
+    font-size: 16px;
     color: var(--black);
     margin-bottom: 15px;
 }
