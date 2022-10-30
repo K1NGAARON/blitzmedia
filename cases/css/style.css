@@ -1,0 +1,39 @@
+#hero .row {
+    justify-content: center;
+}
+
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+#hero h1,
+#hero p {
+    text-align: center;
+}
+
+#hero .filter-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--light-grey);
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+
+#hero .filter-wrapper a {
+    color: var(--primary-faded);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#hero .filter-wrapper a.active {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+#hero .filter-wrapper a:hover {
+    text-decoration: underline;
+}
