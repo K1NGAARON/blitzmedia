@@ -41,6 +41,48 @@ const casesContent = [
         'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
         'postLink' : 'google.com',
         'category' : 'advertising',
+    },
+    {
+        'title' : 'Generating €100.000 in revenue for this brand',
+        'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
+        'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
+        'postLink' : 'google.com',
+        'category' : 'advertising',
+    },
+    {
+        'title' : 'Custom Built website for a local fitness coach',
+        'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
+        'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
+        'postLink' : 'google.com',
+        'category' : 'web-development',
+    },
+    {
+        'title' : 'Modern responsive website for a plumber',
+        'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
+        'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
+        'postLink' : 'google.com',
+        'category' : 'web-development',
+    },
+    {
+        'title' : 'Facebook ads for a high-end accountant',
+        'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
+        'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
+        'postLink' : 'google.com',
+        'category' : 'advertising',
+    },
+    {
+        'title' : 'Internal webshop for a high-end fashion company',
+        'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
+        'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
+        'postLink' : 'google.com',
+        'category' : 'web-development',
+    },
+    {
+        'title' : 'Modern, responsive website for crypto consultant',
+        'intro' : 'Lorem ipsum, dolor sit amet consectetur adipisicing.',
+        'img' : 'https://blitz-media.io/IMG/aaron_gerard.jpg',
+        'postLink' : 'google.com',
+        'category' : 'web-development',
     }
 ];
 
