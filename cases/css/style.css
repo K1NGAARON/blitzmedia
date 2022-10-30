@@ -60,6 +60,9 @@
 }
 
 #content .case-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
     padding: 20px;
 }
 
@@ -79,6 +82,7 @@
     color: var(--primary);
     transition: var(--transition);
     text-decoration: none;
+    margin-top: auto;
 }
 
 #content .case-wrapper a:hover {
