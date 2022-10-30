@@ -104,7 +104,7 @@ function createCasesListing() {
             </div>
         </div>
         `;
-        casesTarget.insertAdjacentHTML("afterbegin", casesTemplate);
+        casesTarget.insertAdjacentHTML("beforeend", casesTemplate);
     };
 };
 
