@@ -44,7 +44,7 @@ function createBlogListing() {
                     ${blogsArray[i].blogTitle}
                 </h3>
                 <p>
-                ${blogsArray[i].blogIntro}
+                    ${blogsArray[i].blogIntro}
                 </p>
                 <a href="${blogsArray[i].blogURL}">
                     Lees verder ➔
