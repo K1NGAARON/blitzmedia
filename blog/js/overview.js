@@ -13,19 +13,19 @@ $('.blog-filter a').on('click', function(e) {
 const blogsTarget = document.querySelector("#blog-content > .row");
 const blogsArray = [
     {
-        'blogIMG' : '../img/blog/professionele_website_prijs_featured.jpg',
+        'blogIMG' : '../IMG/blog/professionele_website_prijs_featured.jpg',
         'blogTitle' : 'Wat kost een professionele website?',
         'blogIntro' : 'Ontdek de verschillende aspecten bij het bepalen van een prijs van een nieuwe website.',
         'blogURL' : '/blog/wat-kost-een-professionele-website.html'
     },
     {
-        'blogIMG' : '../img/blog/professionele_website_hero.jpg',
+        'blogIMG' : '../IMG/blog/professionele_website_hero.jpg',
         'blogTitle' : 'Een professionele website laten maken',
         'blogIntro' : 'Bij Blitz Media kun je terecht voor een professionele website die volledig op maat gemaakt wordt.',
         'blogURL' : '/blog/een-professionele-website-laten-maken.html'
     },
     {
-        'blogIMG' : '../img/blog/Google Ads Manager Update.jpg',
+        'blogIMG' : '../IMG/blog/Google Ads Manager Update.jpg',
         'blogTitle' : 'Google Ads Manager updates',
         'blogIntro' : 'Ontdek de Google Ads Manager update met de 7 grootste veranderingen die er in 2022 aan komen.',
         'blogURL' : '/blog/google-ads-manager-update.html'
