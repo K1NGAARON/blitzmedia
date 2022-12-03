@@ -1,7 +1,7 @@
 // TARGET MOUNT
-const reviewsTarget = document.querySelector('#content .row .wrapper');
+const textReviewsTarget = document.querySelector('#content .row .wrapper');
 
-const reviews = [
+const textReviews = [
     {
         body: "Working with Aaron brings peace of mind. Aaron listens very attentively to briefings and manages to cleverly work out and implement tactics to achieve pre-set goals. When you entrust Aaron with an assignment, you can rest easy that the job will be completed properly and on time.",
         name: "Karel-Jan",
@@ -41,27 +41,27 @@ const reviews = [
 
 
 // CREATE NEW RANDOMIZED ARRAY
-const newArray = reviews.sort((a, b) => 0.5 - Math.random());
+const newTextArray = textReviews.sort((a, b) => 0.5 - Math.random());
 
 
 // BUILD REVIEWS
-function createReviews() {
-    for (let i = 0; i < newArray.length; i++) {
+function CreateTextReviews() {
+    for (let i = 0; i < newTextArray.length; i++) {
         const template = `
             <div class="item">
                 
                 <p>
-                    "${newArray[i].body}"
+                    "${newTextArray[i].body}"
                 </p>
                 <h5>
-                    - ${newArray[i].name}
+                    - ${newTextArray[i].name}
                 </h5>
             </div>
         `;
 
-        reviewsTarget.insertAdjacentHTML("beforeend", template);
+        textReviewsTarget.insertAdjacentHTML("beforeend", template);
     }
 };
 
 // CALL REVIEWS
-$(document).ready(createReviews);
+$(document).ready(CreateTextReviews);
