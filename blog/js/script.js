@@ -8,22 +8,25 @@ $('.filter-wrapper a').on('click', function(e) {
 });
 
 
-
-// Create blog posts
-const blogsTarget = document.querySelector("#content .row .wrapper");
+const contentTarget = document.querySelector("#content .row .wrapper");
 const contentArray = [
-
+    {
+        title: '',
+        intro: '',
+        img: '',
+        url: '',
+        client: '',
+        category: '',
+    }
 ]
 
-function createBlogListing() {
-    for (let i = 0; i < blogsArray.length; i++) {
+function createBlogPosts() {
+    for (let i = 0; i < contentArray.length; i++) {
         const template = `
         
         `;
-        blogsTarget.insertAdjacentHTML("afterbegin", template);
+        contentTarget.insertAdjacentHTML("afterbegin", template);
     };
 };
 
-$(document).ready(function() {
-    createBlogListing();
-});
+$(document).ready(createBlogPosts);
