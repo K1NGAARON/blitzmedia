@@ -44,3 +44,9 @@
     border-radius: 26px;
     max-width: 60%;
 }
+
+@media (max-width: 540px) {
+    .section .wrapper .item {
+        flex: 1 0 100%;
+    }
+}
