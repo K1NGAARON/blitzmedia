@@ -1,0 +1,105 @@
+/* BANNER SECTION */
+.banner {
+    background-image: url('https://www.unifiedinfotech.net/assets/images/Clutch-Banner-Image@4x.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner,
+.banner .row {
+    min-height: 80vh;
+}
+
+.banner h1 {
+    color: var(--white);
+}
+
+.banner p {
+    color: var(--white);
+}
+
+/* LOGO SECTION */
+.logos.section.grey {
+    background-color: var(--background-accent);
+}
+
+.logos,
+.logos .row {
+    min-height: unset;
+}
+
+.logos .row {
+    margin: 20px auto;
+}
+
+
+
+/* ABOUT SECTION */
+
+
+
+
+/* SERVICES SECTION */
+.services {
+    background-color: var(--light-grey);
+}
+
+.services .wrapper .item {
+    align-items: center;
+    padding: 30px;
+    border-radius: 26px;
+    box-shadow: var(--boxShadow);
+}
+
+.services .wrapper .item img {
+    max-width: 75px;
+}
+
+.services .wrapper .item h3 {
+    font-size: 24px;
+}
+
+
+/* PROCESS */
+.process .wrapper .item:nth-of-type(1) {
+    width: 40%;
+}
+
+.process .wrapper .item:nth-of-type(2) {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.process .wrapper .item:nth-child(2) .container {
+
+}
+
+
+/* VIDEO REVIEW SECTION */
+.review .video-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 26px;
+}
+
+.review .review-quote {
+    font-weight: 700;
+}
+
+.review .focus {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.review .review-quote,
+.review .focus {
+    font-size: 46px;
+}
+
+.review .review-author {
+    font-size: 18px;
+    opacity: 0.5;
+}
