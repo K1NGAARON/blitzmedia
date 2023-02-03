@@ -11,12 +11,15 @@
     min-height: 80vh;
 }
 
-.banner h1 {
-    color: var(--white);
-}
-
+.banner h1,
 .banner p {
     color: var(--white);
+    max-width: 60%;
+}
+
+.banner .row.flex-col {
+    gap: 20px;
+    align-items: flex-start;
 }
 
 /* LOGO SECTION */
@@ -33,6 +36,14 @@
     margin: 20px auto;
 }
 
+.logos .row .wrapper {
+    align-items: center;
+}
+
+.logos .row .wrapper .item img {
+    max-width: 150px;
+}
+
 
 
 /* ABOUT SECTION */
@@ -43,6 +54,10 @@
 /* SERVICES SECTION */
 .services {
     background-color: var(--light-grey);
+}
+
+.services .wrapper {
+    gap: 40px;
 }
 
 .services .wrapper .item {

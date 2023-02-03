@@ -1,7 +1,7 @@
 // STICKY LARGE MENU
 $(document).scroll(function () {
     const header = $('.header');
-    const logo = $('.logo');
+    const logo = $('.header .logo');
 
     if ($(this).scrollTop() > header.height()) {
         $(logo).attr("src","../branding/logo/logo-black.png");
@@ -17,49 +17,53 @@ $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
 
+function shuffleArray(array) {
+    array.sort(() => Math.random() - 0.5);
+};
+
+
 // CREATE LOGO SECTION
 const target = document.querySelector('.logos > .row > .wrapper');
 const logos = [
     {
         img: '/img/clients/cfl-logo.png',
-        client: ''
+        client: 'Cashflow For Life'
     },
     {
         img: '/img/clients/fa-logo.png',
-        client: ''
+        client: 'Freedom Academy'
     },
     {
         img: '/img/clients/sunday-logo.png',
-        client: ''
-    },
-    {
-        img: '/img/clients/fa-logo.png',
-        client: ''
+        client: 'Sunday'
     },
     {
         img: '/img/clients/klimatherm-logo.png',
-        client: ''
+        client: 'Klimatherm'
     },
     {
-        img: '/img/clients/cfl-logo.png',
-        client: ''
+        img: '/img/clients/tvh.png',
+        client: 'TVH',
     },
     {
-        img: '/img/clients/fa-logo.png',
-        client: ''
-    }
+        img: '/img/clients/lansweeper.png',
+        client: 'Lansweeper',
+    },
 ];
 
 
 function createLogos() {
-    for (let i = 0; i < logos.length; i++) {
-        const template = `
-            <div class="item">
-                <img src="${logos[i].img}" alt="${logos[i].client}">
-            </div>
-        `;
-        target.insertAdjacentHTML("beforeend", template);
-    };
+    if (target) {
+        shuffleArray(logos);
+        for (let i = 0; i < logos.length; i++) {
+            const template = `
+                <div class="item">
+                    <img src="${logos[i].img}" alt="${logos[i].client}">
+                </div>
+            `;
+            target.insertAdjacentHTML("beforeend", template);
+        };
+    }
 };
 
 $(document).ready(createLogos);
