@@ -147,6 +147,7 @@ img.border-radius {
 }
 
 .btn:hover {
+    cursor: pointer;
     transform: scale(1.05);
     transition: var(--transition);
 }
