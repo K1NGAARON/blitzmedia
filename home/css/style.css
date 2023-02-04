@@ -359,7 +359,9 @@
     .review .review-quote, .review .focus {
         font-size: 26px;
     }
+}
 
+@media (max-width: 1000px) {
     .section.contact {
         background-image: unset;
     }
