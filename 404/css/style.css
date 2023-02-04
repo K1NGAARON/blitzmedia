@@ -1,0 +1,8 @@
+.banner {
+    background-image: url('https://www.unifiedinfotech.net/assets/images/Clutch-Banner-Image@4x.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    color: var(--white);
+}
