@@ -1,0 +1,374 @@
+/* BANNER SECTION */
+.banner {
+    background-image: url('https://www.unifiedinfotech.net/assets/images/Clutch-Banner-Image@4x.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner,
+.banner .row {
+    min-height: 80vh;
+}
+
+.banner h1,
+.banner p {
+    color: var(--white);
+    max-width: 70%;
+}
+
+.banner .row.flex-col {
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* LOGO SECTION */
+.logos.section.grey {
+    background-color: var(--background-accent);
+}
+
+.logos,
+.logos .row {
+    min-height: unset;
+}
+
+.logos .row {
+    margin: 20px auto;
+}
+
+.logos .row .wrapper {
+    align-items: center;
+}
+
+.logos .row .wrapper .item img {
+    max-width: 150px;
+}
+
+/* ABOUT */
+.about ol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+
+/* SERVICES SECTION */
+.services {
+    background-color: var(--light-grey);
+}
+
+.services .wrapper {
+    gap: 40px;
+}
+
+.services .wrapper .item {
+    align-items: center;
+    padding: 30px;
+    border-radius: 26px;
+    box-shadow: var(--boxShadow);
+    text-align: center;
+}
+
+.services .wrapper .item img {
+    max-width: 75px;
+}
+
+.services .wrapper .item h3 {
+    font-size: 20px;
+}
+
+.services .wrapper .item a {
+    margin-top: auto;
+    transition: text-decoration 200ms linear;
+}
+
+.services .wrapper .item a:hover {
+    text-decoration: underline;
+    transition: text-decoration 200ms linear;
+}
+
+/* PROCESS */
+.process .row.flex-col {
+    align-items: flex-end;
+}
+
+.process .row.flex-col h2 {
+    align-self: center;
+}
+
+.process .wrapper {
+    width: 90%;
+    height: 60vh;
+}
+
+.process .wrapper .item {
+    gap: 0;
+}
+
+.process .wrapper .item:nth-of-type(1) {
+    flex: 1 0 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.process .wrapper .item:nth-of-type(2) {
+    color: var(--white);
+    flex: 1 0 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.process .wrapper .item .container:nth-child(1) {
+    flex: 1 0 40%;
+}
+
+.process .wrapper .item .container:nth-child(2) {
+    flex: 1 0 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 30px;
+}
+
+.process .wrapper .item:nth-child(2) {
+    background-color: transparent;
+    background-image: url('/home/img/process-background.svg');
+    background-size: cover;
+    background-position: revert;
+}
+
+.process .wrapper .item .container img {
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.process .wrapper .item ol {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 22px;
+}
+
+.process .wrapper .item li {
+    opacity: 0.3;
+    transition: opacity 200ms ease;
+}
+
+.process .wrapper .item li.active {
+    opacity: 1;
+    transition: opacity 200ms ease;
+}
+
+.process .wrapper .item li:hover {
+    cursor: pointer;
+}
+
+.process .wrapper h4 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* VIDEO REVIEW SECTION */
+.review .video-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 26px;
+}
+
+.review .review-quote {
+    font-weight: 700;
+}
+
+.review .focus {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.review .review-quote,
+.review .focus {
+    font-size: 46px;
+}
+
+.review .review-author {
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+/* CONTACT */
+.section.contact {
+    background-color: var(--light-grey);
+}
+
+.section.contact h2 {
+    max-width: 45%;
+}
+
+.section.contact .row.flex-col {
+    align-items: flex-start;
+}
+
+.section.contact {
+    background-image: url('https://www.unifiedinfotech.net/assets/images/us-office@4x.jpg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section.contact .form-wrapper {
+    display: flex;
+    width: 40%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: var(--white);
+    box-shadow: var(--boxShadow);
+}
+
+.section.contact .form-wrapper form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+.section.contact .form-wrapper input {
+    color: var(--black);
+    flex: 1;
+    width: 100%;
+    padding: 16px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border: none;
+    border-bottom: 1px solid var(--background-accent);
+    border-radius: 0;
+    height: 60px;
+    outline: none;
+    font-size: 18px;
+    transition: border-bottom 200ms ease;
+}
+
+.section.contact .form-wrapper input:focus {
+    transition: border-bottom 200ms ease;
+    border-bottom: 2px solid var(--primary);
+}
+
+.section.contact .form-wrapper .btn {
+    color: var(--white);
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+    transition: border-bottom 200ms ease;
+    transition: var(--transition);
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.section.contact .form-wrapper .btn:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 560px) {
+    .header .row {
+        display: none;
+    }
+
+    .header .topnav-content-sm {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .header .small-menu-content {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+        background-color: var(--white);
+    }
+
+
+    .header .topnav-content-sm svg {
+        fill: var(--white);
+        width: 25px;
+    }
+
+    .header .topnav-content-sm svg:hover {
+        cursor: pointer;
+    }
+
+    .section h1 {
+        font-size: 32px;
+        max-width: 100%;
+    }
+
+    .section h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .banner.section,
+    .banner.section .row.flex-col {
+        min-height: 50vh;
+    }
+
+    .banner.section .row.flex-col {
+        padding-top: 30px;
+    }
+
+    .section .row,
+    .section .row.flex-col {
+        padding: 0 30px;
+    }
+
+    .logos.section .row .wrapper .item {
+        flex: 1 0 25%;
+    }
+
+    .services .wrapper .item {
+        flex: 1 0 100%;
+    }
+
+    .process .wrapper {
+        height: unset;
+        width: 100%;
+    }
+
+    .process .wrapper .item ol {
+        gap: 20px;
+    }
+
+    .process .wrapper .item:nth-child(1),
+    .process .wrapper .item:nth-child(2) {
+        flex: 1 0 100%;
+    }
+
+    .process .wrapper .item:nth-child(2) {
+        border-radius: 30px;
+    }
+
+    .process .wrapper .item .container:nth-child(1) {
+        display: none;
+    }
+
+    .process .wrapper .item .container:nth-child(2) {
+        flex: 1 0 100%;
+        padding: 30px;
+    }
+
+    .review .review-quote, .review .focus {
+        font-size: 26px;
+    }
+
+    .section.contact {
+        background-image: unset;
+    }
+
+    .section.contact h2 {
+        max-width: 100%;
+    }
+
+    .section.contact .form-wrapper {
+        width: 100%;
+    }
+}
