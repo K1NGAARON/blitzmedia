@@ -42,3 +42,9 @@
 .wrapper .card p {
     font-size: 16px;
 }
+
+@media (max-width: 560px) {
+    .wrapper .card {
+        flex: 1 0 100%;
+    }
+}
