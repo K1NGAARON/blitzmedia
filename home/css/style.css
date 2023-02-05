@@ -359,6 +359,10 @@
     .review .review-quote, .review .focus {
         font-size: 26px;
     }
+
+    .process .wrapper h4 {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 1000px) {
