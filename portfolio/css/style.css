@@ -1,0 +1,23 @@
+/* BANNER SECTION */
+.banner {
+    background-image: url('https://www.unifiedinfotech.net/assets/images/Clutch-Banner-Image@4x.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner,
+.banner .row {
+    min-height: 80vh;
+}
+
+.banner h1,
+.banner p {
+    color: var(--white);
+    max-width: 70%;
+}
+
+.banner .row.flex-col {
+    gap: 20px;
+    align-items: flex-start;
+}
