@@ -311,7 +311,7 @@ img.border-radius {
 }
 
 .section.contact {
-    background-image: url('https://www.unifiedinfotech.net/assets/images/us-office@4x.jpg');
+    background-image: url('/img/contact-image.jpg');
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
