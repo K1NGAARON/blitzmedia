@@ -13,7 +13,7 @@
 }
 
 .content.section .row .container {
-    padding: 30px;
+    padding: 60px;
     background-color: var(--light-grey);
     border-radius: 26px;
 }
@@ -25,5 +25,15 @@
 .content.section .row h3 {
     font-size: 30px;
     color: #444;
+    margin: 10px 0 20px 0;
 }
 
+.content.section .row .container ul,
+.content.section .row .container ol {
+    padding-left: 40px;
+}
+
+.content.section .row .container .bold {
+    font-weight: 700;
+    margin-top: 10px;
+}
