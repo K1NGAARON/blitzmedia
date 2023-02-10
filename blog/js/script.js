@@ -49,3 +49,34 @@ const faq = [
 
 // Build FAQ
 // => SUNDAY FAQ TEMPLATE
+
+function createFAQ(e) {
+    let faqWrapper = `
+        <div class="wrapper faq">
+            <div class="accordion-list">
+
+            </div>
+        </div>
+    `;
+
+    for (let i = 0; i < faq.length; i++) {
+        let faqItem = `
+            <div class="accordion-item">
+                <div class="accordion-head">
+                    <h5>
+
+                    </h5>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        `; 
+    };
+
+    // Insert wrapper
+    // Insert items
+    // Add active to first "item"
+};
+
+// FAQ OPEN AND CLOSE LOGIC
