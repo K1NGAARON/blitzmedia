@@ -8,7 +8,7 @@
 
 .banner,
 .banner .row {
-    min-height: 80vh;
+    min-height: 40vh;
 }
 
 .banner h1,
@@ -20,4 +20,11 @@
 .banner .row.flex-col {
     gap: 20px;
     align-items: flex-start;
+}
+
+@media (max-width: 560px) {
+    .banner,
+    .banner .row {
+        min-height: fit-content;
+    }
 }
