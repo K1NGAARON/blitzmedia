@@ -1,0 +1,29 @@
+.banner.section h1,
+.banner.section p {
+    max-width: 50%;
+}
+
+.content.section,
+.content.section .row {
+    min-height: fit-content;
+}
+
+.content.section .row {
+    max-width: 60%;
+}
+
+.content.section .row .container {
+    padding: 30px;
+    background-color: var(--light-grey);
+    border-radius: 26px;
+}
+
+.content.section .row h2 {
+    font-size: 36px;
+}
+
+.content.section .row h3 {
+    font-size: 30px;
+    color: #444;
+}
+
