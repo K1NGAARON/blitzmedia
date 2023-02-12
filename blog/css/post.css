@@ -49,3 +49,36 @@
 .projects.section {
     display: none;
 }
+
+@media (max-width: 560px) {
+    .section .row {
+        padding: 0 30px;
+    }
+
+    .banner.section h1, 
+    .banner.section p {
+        max-width: 100%;
+    }
+
+    .banner.section h1 {
+        font-size: 36px;
+    }
+
+    .content.section .row {
+        max-width: 100%;
+    }
+
+    .content.section .row .container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .content.section .row h2 {
+        font-size: 28px;
+    }
+
+    .content.section .row h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+}

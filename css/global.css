@@ -208,6 +208,10 @@ img.border-radius {
     transition: background-color 200ms linear;
 }
 
+.header.active .topnav-content-sm svg {
+    fill: var(--black);
+}
+
 .header.active .container .nav {
     color: var(--black);
 }
