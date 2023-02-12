@@ -6,12 +6,12 @@ const projects = [
         img: '/blog/professionele-website-laten-maken/img/banner.jpg',
         url: '/blog/professionele-website-laten-maken/',
     },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: '',
-    //     url: '',
-    // },
+    {
+        title: "Hoeveel Kost Een Professionele Website?",
+        body: "De kostprijs van een website bevindt zich tussen de €500 en €2.000. Het verschil hangt af van de complexiteit en grootte van de website.",
+        img: '/blog/hoeveel-kost-een-professionele-website/img/banner.jpg',
+        url: '/blog/hoeveel-kost-een-professionele-website/',
+    },
     // {
     //     title: "",
     //     body: "",
@@ -36,7 +36,7 @@ function createCards() {
                 </a>
             </div>
         `;
-        blogOverviewTarget.insertAdjacentHTML("beforeend", template);
+        blogOverviewTarget.insertAdjacentHTML("afterbegin", template);
     };
 };
 
