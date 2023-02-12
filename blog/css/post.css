@@ -28,6 +28,14 @@
     margin: 10px 0 20px 0;
 }
 
+.content.section p,
+.content.section ul, 
+.content.section ol,
+.content.section ul,
+.content.section li {
+    line-height: 1.8;
+}
+
 .content.section .row .container ul,
 .content.section .row .container ol {
     padding-left: 40px;
@@ -36,4 +44,8 @@
 .content.section .row .container .bold {
     font-weight: 700;
     margin-top: 10px;
+}
+
+.projects.section {
+    display: none;
 }

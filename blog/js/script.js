@@ -1,23 +1,47 @@
+const blogOverviewTarget = document.querySelector('#content');
 const projects = [
     {
-        title: "",
-        body: "",
-        img: '',
-        url: '',
+        title: "Een professionele website laten maken",
+        body: "Ontdek waarom het essentieel is om een professionele website te laten maken voor jouw bedrijf.",
+        img: '/blog/professionele-website-laten-maken/img/banner.jpg',
+        url: '/blog/professionele-website-laten-maken/',
     },
-    {
-        title: "",
-        body: "",
-        img: '',
-        url: '',
-    },
-    {
-        title: "",
-        body: "",
-        img: '',
-        url: '',
-    },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: '',
+    //     url: '',
+    // },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: '',
+    //     url: '',
+    // },
 ];
+
+function createCards() {
+    for (let i = 0; i < projects.length; i++) {
+        const template = `
+            <div class="card">
+                <img src="${projects[i].img}" alt="${projects[i].title}">
+                <h5>
+                    ${projects[i].title}
+                </h5>
+                <p>
+                    ${projects[i].body}
+                </p>
+                <a href="${projects[i].url}" class="btn ghost">
+                    Lees artikel
+                </a>
+            </div>
+        `;
+        blogOverviewTarget.insertAdjacentHTML("beforeend", template);
+    };
+};
+
+$(document).ready(createCards);
+
 
 const faq = [
     {
@@ -80,3 +104,4 @@ function createFAQ(e) {
 };
 
 // FAQ OPEN AND CLOSE LOGIC
+
