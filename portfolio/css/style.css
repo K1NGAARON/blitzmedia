@@ -8,13 +8,21 @@
 
 .banner,
 .banner .row {
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 .banner h1,
 .banner p {
     color: var(--white);
     max-width: 70%;
+}
+
+.banner h1 {
+    font-size: 44px;
+}
+
+.contact.section .row {
+    max-width: 100%;
 }
 
 .container.aside .wrapper {
