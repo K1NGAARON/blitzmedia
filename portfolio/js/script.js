@@ -1,21 +1,15 @@
 const content = [
     {
-        title: "Title 1",
-        body: "Body 1",
+        title: "Hoe we 150+ leads gegenereerd hebben voor een boekhouder",
+        body: "De website bezoekers van Freedom Academy hadden geen flauw idee wat het bedrijf net deed.",
         img: "/portfolio/img/placeholder.jpg",
-        url: "/portfolio/",
+        url: "/portfolio/boekhouder/",
     },
     {
-        title: "Title 2",
-        body: "Body 2",
+        title: "Hoe de Freedom Academy bezoekers converteert naar betalende coaching klanten",
+        body: "De uitdaging bij deze boekhouder was dat er geen manier was om voorspelbaar meer leads (lees: klanten) aan te trekken.",
         img: "/portfolio/img/placeholder.jpg",
-        url: "/portfolio/",
-    },
-    {
-        title: "Title 3",
-        body: "Body 3",
-        img: "/portfolio/img/placeholder.jpg",
-        url: "/portfolio/",
+        url: "/portfolio/freedom-academy/",
     },
 ];
 
