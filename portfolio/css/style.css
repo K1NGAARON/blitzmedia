@@ -17,6 +17,21 @@
     max-width: 70%;
 }
 
+.container.aside .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.container.aside .wrapper .item {
+    flex: 1 0;
+}
+
+.container.aside .wrapper .item p {
+    font-weight: 600;
+}
+
 .banner .row.flex-col {
     gap: 20px;
     align-items: flex-start;
