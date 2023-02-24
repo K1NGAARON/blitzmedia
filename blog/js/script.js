@@ -12,12 +12,12 @@ const projects = [
         img: '/blog/hoeveel-kost-een-professionele-website/img/banner.jpg',
         url: '/blog/hoeveel-kost-een-professionele-website/',
     },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: '',
-    //     url: '',
-    // },
+    {
+        title: "Maak Een Website In 4 Stappen",
+        body: "De kostprijs van een website bevindt zich tussen de €500 en €2.000.",
+        img: '/blog/website-stappenplan/img/banner.jpg',
+        url: '/blog/website-stappenplan/',
+    },
 ];
 
 function createCards() {
