@@ -49,13 +49,17 @@ const logos = [
         img: '/img/clients/lansweeper.png',
         client: 'Lansweeper',
     },
+    {
+        img: '/img/clients/kordekor-logo.png',
+        client: 'Kordekor',
+    },
 ];
 
 
 function createLogos() {
     if (target) {
         shuffleArray(logos);
-        for (let i = 0; i < logos.length; i++) {
+        for (let i = 0; i < 6; i++) {
             const template = `
                 <div class="item">
                     <img src="${logos[i].img}" alt="${logos[i].client}">
