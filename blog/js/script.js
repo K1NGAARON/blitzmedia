@@ -24,12 +24,12 @@ const projects = [
         img: '/blog/website-laten-optimaliseren/img/banner.jpg',
         url: '/blog/website-laten-optimaliseren/',
     },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
+    {
+        title: "Website laten maken zonder maandelijkse kosten",
+        body: "Wil je graag een professionele website laten maken zonder dat je vastzit aan maandelijkse kosten? Dan zijn er verschillende opties waar je uit kunt kiezen.",
+        img: '/blog/website-zonder-maandelijkse-kosten/img/banner.jpg',
+        url: '/blog/website-zonder-maandelijkse-kosten/',
+    },
     // {
     //     title: "",
     //     body: "",
