@@ -18,6 +18,36 @@ const projects = [
         img: '/blog/website-stappenplan/img/banner.jpg',
         url: '/blog/website-stappenplan/',
     },
+    {
+        title: "Website Laten Optimaliseren",
+        body: "Heb je een website maar behaal je niet de gewenste resultaten? Dan is het laten optimaliseren van je website wellicht de oplossing.",
+        img: '/blog/website-laten-optimaliseren/img/banner.jpg',
+        url: '/blog/website-laten-optimaliseren/',
+    },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    // },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    // },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    // },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    // },
 ];
 
 function createCards() {

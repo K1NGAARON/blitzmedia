@@ -59,17 +59,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-
-}
-
 p {
     font-size: 16px;
-}
-
-ul li,
-ol li {
-
 }
 
 img {
@@ -169,10 +160,6 @@ img.border-radius {
 .btn.ghost.white {
     color: var(--white);
     border: 1px solid var(--white);
-}
-
-.btn.ghost:hover {
-
 }
 
 .wrapper {
