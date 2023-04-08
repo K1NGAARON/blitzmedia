@@ -1,0 +1,12 @@
+.banner {
+    background-image: url('../img/banner.jpg');
+}
+
+.section.content .container p {
+    margin: 20px 0 40px
+}
+
+.banner.section h1, 
+.banner.section p {
+    max-width: 60%;
+}

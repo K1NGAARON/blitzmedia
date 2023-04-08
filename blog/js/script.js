@@ -30,12 +30,12 @@ const projects = [
         img: '/blog/website-zonder-maandelijkse-kosten/img/banner.jpg',
         url: '/blog/website-zonder-maandelijkse-kosten/',
     },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
+    {
+        title: "Een website laten maken: waarom het de investering waard is ",
+        body: "In deze digitale wereld is een goede website onmisbaar voor elk bedrijf.",
+        img: '/blog/website-laten-maken/img/banner.jpg',
+        url: '/blog/website-laten-maken/',
+    },
     // {
     //     title: "",
     //     body: "",
