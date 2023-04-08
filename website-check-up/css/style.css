@@ -1,0 +1,18 @@
+.form-wrapper {
+    width: 100%;
+}
+
+.banner h1, 
+.banner p {
+    max-width: 100%;
+}
+
+.section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section li {
+    color: var(--white);
+}
