@@ -7,8 +7,10 @@
 }
 
 .banner,
-.banner .row {
-    min-height: 70vh;
+.banner .row,
+.banner .overlay {
+    min-height: 80vh;
+    height: 80vh;
 }
 
 .banner h1,
