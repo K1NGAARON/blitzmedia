@@ -48,12 +48,12 @@ const projects = [
         img: "/blog/wat-kost-een-professionele-website/img/banner.jpg",
         url: "/blog/wat-kost-een-professionele-website/",
     },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
+    {
+        title: "12 SEO tips om hoog te scoren in Google",
+        body: "Ontdek de 12 beste SEO-tips om hoger te scoren in Google.",
+        img: "/blog/12-seo-tips-om-te-scoren-in-google/img/banner.jpg",
+        url: "/blog/12-seo-tips-om-te-scoren-in-google/",
+    },
     // {
     //     title: "",
     //     body: "",
