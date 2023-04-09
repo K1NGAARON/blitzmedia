@@ -36,6 +36,24 @@ const projects = [
         img: '/blog/website-laten-maken/img/banner.jpg',
         url: '/blog/website-laten-maken/',
     },
+    {
+        title: "SEO Termen en Definities",
+        body: "Wil je beter scoren in Google? Leer dan alle belangrijke SEO termen en definities in deze complete gids.",
+        img: "/blog/seo-termen-en-definities/img/banner.jpg",
+        url: "/blog/seo-termen-en-definities/",
+    },
+    {
+        title: "Wat kost een professionele website?",
+        body: "Ontdek wat de kosten zijn van het laten maken van een professionele website en leer meer over belangrijke factoren die de prijs bepalen.",
+        img: "/blog/wat-kost-een-professionele-website/img/banner.jpg",
+        url: "/blog/wat-kost-een-professionele-website/",
+    },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    // },
     // {
     //     title: "",
     //     body: "",
