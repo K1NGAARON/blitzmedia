@@ -54,18 +54,24 @@ const projects = [
         img: "/blog/12-seo-tips-om-te-scoren-in-google/img/banner.jpg",
         url: "/blog/12-seo-tips-om-te-scoren-in-google/",
     },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
-    // {
-    //     title: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
+    {
+        title: "Wat is linkbuilding",
+        body: "Linkbuilding is een belangrijk onderdeel van zoekmachineoptimalisatie (SEO). Het gaat om het verkrijgen van kwalitatieve links van andere websites naar jouw website.",
+        img: "/blog/wat-is-linkbuilding/img/banner.jpg",
+        url: "/blog/wat-is-linkbuilding/",
+    },
+    {
+        title: "Hoeveel kost het om een website te laten maken? Prijzen en meer.",
+        body: "Een website laten maken is vaak een investering waar je goed over na wilt denken. Hoeveel kost het eigenlijk om een website te laten maken?",
+        img: "/blog/hoeveel-kost-een-website-maken/img/banner.jpg",
+        url: "/blog/hoeveel-kost-een-website-maken",
+    },
+    {
+        title: "",
+        body: "",
+        img: "",
+        url: "",
+    },
 ];
 
 function createCards() {
