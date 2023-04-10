@@ -67,10 +67,10 @@ const projects = [
         url: "/blog/hoeveel-kost-een-website-maken",
     },
     {
-        title: "",
-        body: "",
-        img: "",
-        url: "",
+        title: "Website bouwer in Oostende",
+        body: "Ben je op zoek naar een professionele websitebouwer in Oostende? Dan ben je hier aan het juiste adres!",
+        img: "/blog/website-bouwer-oostende/img/banner.jpg",
+        url: "/blog/website-bouwer-oostende/",
     },
 ];
 
