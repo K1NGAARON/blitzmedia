@@ -389,6 +389,10 @@ img.border-radius {
         display: none;
     }
 
+    .section .row .col {
+        flex: 1 0 100%;
+    }
+
     .header .topnav-content-sm {
         display: flex;
         align-items: center;
