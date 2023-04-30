@@ -28,7 +28,7 @@ html {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 /* FONTS */
@@ -372,6 +372,10 @@ img.border-radius {
     transform: scale(1.02);
 }
 
+.faq.wrapper {
+    width: 80%;
+}
+
 .faq .accordion-list {
     display: flex;
     flex-direction: column;
@@ -458,7 +462,8 @@ img.border-radius {
 }
 
 .faq a {
-    color: var(--black);
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .faq ol {
