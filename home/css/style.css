@@ -38,6 +38,7 @@
 
 .logos .row .wrapper {
     align-items: center;
+    gap: 100px;
 }
 
 .logos .row .wrapper .item img {

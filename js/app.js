@@ -59,7 +59,7 @@ const logos = [
 function createLogos() {
     if (target) {
         shuffleArray(logos);
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 5; i++) {
             const template = `
                 <div class="item">
                     <img src="${logos[i].img}" alt="${logos[i].client}">
