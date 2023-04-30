@@ -496,6 +496,7 @@ img.border-radius {
 
     .section .row .col {
         flex: 1 0 100%;
+        width: 100%;
     }
 
     .header .topnav-content-sm {

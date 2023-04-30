@@ -55,4 +55,28 @@
     .banner .row {
         padding-top: 60px;
     }
+
+    .banner .form-wrapper {
+        padding: 20px;
+    }
+
+    .banner .form-wrapper .btn {
+        font-size: 14px;
+    }
+
+    .form-wrapper .small {
+        font-size: 12px;
+    }
+
+    .form-wrapper h3 {
+        font-size: 18px;
+    }
+
+    .logos .row .wrapper {
+        gap: 20px;
+    }
+
+    .faq.wrapper {
+        width: 100%;
+    }
 }
