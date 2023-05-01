@@ -23,57 +23,57 @@ const content = [
 ];
 
 
-function createCards(e) {
-    const target = document.querySelector('#content');
-
-    for (let i = 0; i < content.length; i++) {
-        const tagWithSpaces = content[i].tag.replace(/-/g, ' ');
-        const template = `
-            <div class="card ${content[i].tag}">
-                <img src="${content[i].img}" alt="${content[i].title}">
-                <div class="content">
-                    <p class="tag">
-                        ${tagWithSpaces}
-                    </p>
-                    <h5>
-                        ${content[i].title}
-                    </h5>
-                    <a href="${content[i].url}" class="">
-                        Lees meer
-                    </a>
-                </div>
-            </div>
-        `;
-        target.insertAdjacentHTML("beforeend", template);
-    };
-}
-
 // function createCards(e) {
 //     const target = document.querySelector('#content');
 
-//     const cardsHTML = content.map(item => {
-//         const tagWithSpaces = item.tag.replace(/-/g, ' ');
-
-//         return `
-//             <div class="card ${item.tag}">
-//                 <img src="${item.img}" alt="${item.title}">
+//     for (let i = 0; i < content.length; i++) {
+//         const tagWithSpaces = content[i].tag.replace(/-/g, ' ');
+//         const template = `
+//             <div class="card ${content[i].tag}">
+//                 <img src="${content[i].img}" alt="${content[i].title}">
 //                 <div class="content">
 //                     <p class="tag">
 //                         ${tagWithSpaces}
 //                     </p>
 //                     <h5>
-//                         ${item.title}
+//                         ${content[i].title}
 //                     </h5>
-//                     <a href="${item.url}" class="">
+//                     <a href="${content[i].url}" class="">
 //                         Lees meer
 //                     </a>
 //                 </div>
 //             </div>
 //         `;
-//     }).join('');
-
-//     target.innerHTML = cardsHTML;
+//         target.insertAdjacentHTML("beforeend", template);
+//     };
 // }
+
+function createCards(e) {
+    const target = document.querySelector('#content');
+
+    const cardsHTML = content.map(item => {
+        const tagWithSpaces = item.tag.replace(/-/g, ' ');
+
+        return `
+            <div class="card ${item.tag}">
+                <img src="${item.img}" alt="${item.title}">
+                <div class="content">
+                    <p class="tag">
+                        ${tagWithSpaces}
+                    </p>
+                    <h5>
+                        ${item.title}
+                    </h5>
+                    <a href="${item.url}" class="">
+                        Lees meer
+                    </a>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    target.innerHTML = cardsHTML;
+}
 
 
 function filterContent(e) {
