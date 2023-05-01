@@ -12,7 +12,7 @@ function createCards() {
                         ${content[i].body}
                     </p>
                     <a href="${content[i].url}" class="btn ghost">
-                        Read more
+                        Lees meer
                     </a>
                 </div>
             `;
