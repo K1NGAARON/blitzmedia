@@ -27,12 +27,13 @@ function createCards(e) {
     const target = document.querySelector('#content');
 
     for (let i = 0; i < content.length; i++) {
+        const tagWithSpaces = content[i].tag.replace(/-/g, ' ');
         const template = `
             <div class="card ${content[i].tag}">
                 <img src="${content[i].img}" alt="${content[i].title}">
                 <div class="content">
                     <p class="tag">
-                        ${content[i].tag}
+                        ${tagWithSpaces}
                     </p>
                     <h5>
                         ${content[i].title}
