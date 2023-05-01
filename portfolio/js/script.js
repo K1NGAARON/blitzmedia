@@ -48,22 +48,49 @@ function createCards(e) {
     };
 }
 
+// function createCards(e) {
+//     const target = document.querySelector('#content');
+
+//     const cardsHTML = content.map(item => {
+//         const tagWithSpaces = item.tag.replace(/-/g, ' ');
+
+//         return `
+//             <div class="card ${item.tag}">
+//                 <img src="${item.img}" alt="${item.title}">
+//                 <div class="content">
+//                     <p class="tag">
+//                         ${tagWithSpaces}
+//                     </p>
+//                     <h5>
+//                         ${item.title}
+//                     </h5>
+//                     <a href="${item.url}" class="">
+//                         Lees meer
+//                     </a>
+//                 </div>
+//             </div>
+//         `;
+//     }).join('');
+
+//     target.innerHTML = cardsHTML;
+// }
+
 
 function filterContent(e) {
     // Toggle Active Class on Filter
     $('.filter-btn').removeClass('active');
     $(this).addClass('active');
 
-    $('.content .card').hide();
+    $('.content .card').fadeOut();
 
     // Selected Tag
     let activeFilter = $(this).attr('id');
     console.log(activeFilter);
 
     if (activeFilter === 'all') {
-        $('.content .card').show();
+        $('.content .card').fadeIn();
     } else {
-        $('.' + activeFilter).show();
+        $('.' + activeFilter).fadeIn();
     }
 }
 
