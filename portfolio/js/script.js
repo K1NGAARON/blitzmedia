@@ -49,6 +49,11 @@ function createCards(e) {
     target.innerHTML = cards;
 }
 
+// Create related content on the post pages
+// => target
+// => content (use above?)
+// => map through content
+
 function filterContent(e) {
     // Toggle Active Class on Filter
     $('.filter-btn').removeClass('active');
