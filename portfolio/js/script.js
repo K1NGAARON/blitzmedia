@@ -22,36 +22,10 @@ const content = [
     },
 ];
 
-
-// function createCards(e) {
-//     const target = document.querySelector('#content');
-
-//     for (let i = 0; i < content.length; i++) {
-//         const tagWithSpaces = content[i].tag.replace(/-/g, ' ');
-//         const template = `
-//             <div class="card ${content[i].tag}">
-//                 <img src="${content[i].img}" alt="${content[i].title}">
-//                 <div class="content">
-//                     <p class="tag">
-//                         ${tagWithSpaces}
-//                     </p>
-//                     <h5>
-//                         ${content[i].title}
-//                     </h5>
-//                     <a href="${content[i].url}" class="">
-//                         Lees meer
-//                     </a>
-//                 </div>
-//             </div>
-//         `;
-//         target.insertAdjacentHTML("beforeend", template);
-//     };
-// }
-
 function createCards(e) {
     const target = document.querySelector('#content');
 
-    const cardsHTML = content.map(item => {
+    const cards = content.map(item => {
         const tagWithSpaces = item.tag.replace(/-/g, ' ');
 
         return `
@@ -72,9 +46,8 @@ function createCards(e) {
         `;
     }).join('');
 
-    target.innerHTML = cardsHTML;
+    target.innerHTML = cards;
 }
-
 
 function filterContent(e) {
     // Toggle Active Class on Filter
