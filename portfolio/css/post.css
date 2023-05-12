@@ -28,6 +28,25 @@
     font-weight: 700;
 }
 
+.section.content.blog .main {
+    flex: 1 0 100%;
+}
+
+.section.content.blog .main .wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section.content.blog .main .wrapper h2 {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.section.content.blog .main .wrapper h3 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
 .section.content .main {
     flex: 1 0 75%;
     display: flex;
