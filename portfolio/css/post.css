@@ -129,4 +129,9 @@
     .section.content .main .wrapper .review-wrapper {
         flex-direction: column;
     }
+
+    .section.content.blog .main .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
