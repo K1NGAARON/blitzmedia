@@ -1,25 +1,39 @@
 const content = [
     {
-        title: "Hoe we 150+ leads gegenereerd hebben voor een boekhouder",
-        tag: 'advertising',
-        body: "De website bezoekers van Freedom Academy hadden geen flauw idee wat het bedrijf net deed.",
-        img: "/portfolio/boekhouder/img/banner.jpg",
-        url: "/portfolio/boekhouder/",
+        title: "Gloednieuwe website voor Klimatherm",
+        tag: "website-development",
+        body: "Klimatherm is een loodgietersbedrijf dat bij ons aanklopte met verschillende uitdagingen. Ze hadden een onprofessionele uitstraling vanwege een gebrek aan merkidentiteit en website.",
+        img: "/blog/website-bouwer-oostende/img/banner.jpg",
+        url: "/portfolio/klimatherm/"
     },
     {
-        title: "Hoe de Freedom Academy bezoekers converteert naar betalende coaching klanten",
-        tag: 'website-development',
-        body: "De uitdaging bij deze boekhouder was dat er geen manier was om voorspelbaar meer leads (lees: klanten) aan te trekken.",
-        img: "/portfolio/freedom-academy/img/banner.jpg",
-        url: "/portfolio/freedom-academy/",
+        title: "Digitale marketing campagne voor een boekhouder",
+        tag: "advertising",
+        body: "Onze klant, een accountant, benaderde ons met een uitdaging. Ze hadden bijna geen nieuwe klanten meer en wisten niet hoe ze nieuwe klanten konden bereiken.",
+        img: "/blog/website-laten-optimaliseren/img/banner.jpg",
+        url: "/portfolio/online-boekhouder/"
     },
     {
-        title: "Hoe de Freedom Academy bezoekers converteert naar betalende coaching klanten",
-        tag: 'webshop-development',
-        body: "De uitdaging bij deze boekhouder was dat er geen manier was om voorspelbaar meer leads (lees: klanten) aan te trekken.",
-        img: "/portfolio/freedom-academy/img/banner.jpg",
-        url: "/portfolio/freedom-academy/",
+        title: "Custom website met online boekingsysteem",
+        tag: "website-development",
+        body: "Een van de grootste uitdagingen waarmee ze werden geconfronteerd, was dat ze reserveringen telefonisch moesten aannemen omdat ze geen boekingssysteem hadden.",
+        img: "/portfolio/coin-perdu/img/banner.jpg",
+        url: "/portfolio/coin-perdu/"
     },
+    {
+        title: "Hoe een nieuwe website voor meer leads gezorgd heeft",
+        tag: "website-development",
+        body: "Een jaar na de Sunday rebranding realiseerden ze dat de nieuwe website niet presteerde en niet voldeed aan de wensen van (potentiële) klanten.",
+        img: "/blog/12-seo-tips-om-te-scoren-in-google/img/banner.jpg",
+        url: "/portfolio/sunday/"
+    },
+    // {
+    //     title: "",
+    //     tag: "",
+    //     body: "",
+    //     img: "/portfolio/",
+    //     url: "/portfolio/"
+    // },
 ];
 
 function createCards(e) {
