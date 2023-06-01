@@ -111,6 +111,13 @@ const content = [
         img: "/blog/meer-verkoop-via-webshop/img/banner.jpg",
         url: "/blog/meer-verkoop-via-webshop/",
     },
+    {
+        title: "De perfecte restaurant website",
+        tag: "website-development",
+        body: "",
+        img: "/blog/perfecte-restaurant-website/img/banner.jpg",
+        url: "/blog/perfecte-restaurant-website/",
+    },
     // {
     //     title: "",
     //     tag: "",
@@ -123,6 +130,8 @@ const content = [
 function createCards(e) {
     const target = document.querySelector('#content');
 
+    content.reverse();
+    
     const cards = content.map(item => {
         const tagWithSpaces = item.tag.replace(/-/g, ' ');
 
