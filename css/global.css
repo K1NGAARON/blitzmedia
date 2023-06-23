@@ -482,12 +482,50 @@ img.border-radius {
 .footer {
     min-height: unset;
     color: var(--white);
-    background-color: var(--background);
+    background-color: var(--black);
+}
+
+.footer a {
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    color: var(--primary);
+    transition: 0.5s;
 }
 
 .footer .row {
     min-height: unset;
     justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.socials a {
+    font-size: 24px;
+}
+
+.socials img {
+    max-width: 30px;
+    transition: var(--transition);
+}
+
+.socials img:hover {
+    transform: scale(1.10);
+    transition: var(--transition);
 }
 
 @media (max-width: 560px) {

@@ -16,7 +16,7 @@ const processSteps = [
     },
     {
         headline: 'Testen & Feedback',
-        body: "Na verschillende feedback ronde is de nieuwe website af en gaan we deze uitgebreid gaan testen zodat er zeker geen fouten zijn eens we lanceren. Wanneer de testen succesvol afgerond zijn is het tijd om jouw project te lanceren!",
+        body: "Na verschillende feedback rondes is de nieuwe website af en gaan we deze uitgebreid testen zodat er zeker geen fouten zijn eens we lanceren. Wanneer de testen succesvol afgerond zijn, is het tijd om jouw project te lanceren!",
         img: '/home/img/feedback.jpg'
     },
     {
