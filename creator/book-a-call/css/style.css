@@ -1,0 +1,7 @@
+.banner li {
+    color: var(--white);
+}
+
+.banner ul {
+    padding-left: 30px;
+}
