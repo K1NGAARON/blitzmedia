@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+:root {
+  --primary: #fe492c;
+}
+
+.banner.section {
+  background-image: none;
+}
+
+.banner.section h1,
+.banner.section p {
+  color: var(--black);
+}
+
+.section .btn.white {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.header .container .nav {
+  color: var(--black);
+}
