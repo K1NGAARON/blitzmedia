@@ -4,34 +4,125 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
-<url>
-  <loc>https://blitz-media.io/</loc>
-  <lastmod>2023-05-13T10:08:52+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://blitz-media.io/portfolio/</loc>
-  <lastmod>2023-05-13T10:08:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blitz-media.io/blog/</loc>
-  <lastmod>2023-05-13T10:08:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blitz-media.io/contact/</loc>
-  <lastmod>2023-05-13T10:08:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blitz-media.io/website-check-up/</loc>
-  <lastmod>2023-05-13T10:08:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+  <url>
+    <loc>https://blitz-media.io/</loc>
+    <lastmod>2023-05-13T10:08:52+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/portfolio/</loc>
+    <lastmod>2023-05-13T10:08:52+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/</loc>
+    <lastmod>2023-05-13T10:08:52+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/contact/</loc>
+    <lastmod>2023-05-13T10:08:52+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/website-check-up/</loc>
+    <lastmod>2023-05-13T10:08:52+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/seo-termen-en-definities/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/wat-is-linkbuilding/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/website-stappenplan/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/website-bouwer-oostende/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/hoger-scoren-in-google/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/portfolio/klimatherm/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/portfolio/coin-perdu/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/website-zonder-maandelijkse-kosten/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/portfolio/sunday/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/meer-verkoop-via-webshop/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/website-stand-bieden-competitie/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/12-seo-tips-om-te-scoren-in-google/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/hoe-leads-genereren-via-website/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/perfecte-restaurant-website/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/hoeveel-kost-een-website-maken/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/wat-kost-een-professionele-website/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/website-laten-maken/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/hoeveel-kost-een-professionele-website/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://blitz-media.io/blog/professionele-website-laten-maken/</loc>
+    <lastmod>2023-07-05T10:08:52+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
 </urlset>
