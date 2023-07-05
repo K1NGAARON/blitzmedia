@@ -25,3 +25,13 @@
 .header .container .nav {
   color: var(--black);
 }
+
+.section .row.center p {
+  text-align: center;
+  width: 60%;
+}
+
+.section.primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
