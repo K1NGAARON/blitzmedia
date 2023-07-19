@@ -121,3 +121,7 @@
   text-align: left;
   opacity: 0.5;
 }
+
+.header .topnav-content-sm svg {
+  fill: var(--black);
+}

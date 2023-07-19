@@ -69,7 +69,7 @@ function createLogos() {
     }
 };
 
-$(document).ready(createLogos);
+// $(document).ready(createLogos);
 
 function closeAccordion(e) {
     $('.accordion-head').removeClass('active');
