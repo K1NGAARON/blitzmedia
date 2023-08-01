@@ -15,6 +15,7 @@
 .banner.section h1,
 .banner.section p {
   color: var(--black);
+  max-width: 100%;
 }
 
 .section .btn.white {
