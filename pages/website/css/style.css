@@ -1,0 +1,104 @@
+.header.section {
+    background-color: var(--black);
+}
+
+.banner.section,
+.banner.section .row {
+    min-height: 70vh;
+}
+
+.banner.section {
+    background-image: none;
+}
+
+.banner.section * {
+    color: var(--black);
+}
+
+.banner.thanks.section .btn {
+    color: var(--white);
+}
+
+.banner h1,
+.banner p {
+    max-width: none;
+}
+
+.banner .wrapper.btn-wrapper {
+    align-items: center;
+}
+
+.banner .wrapper.btn-wrapper .btn {
+    color: var(--white);
+}
+
+.banner .wrapper .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.banner .wrapper .rating .icon {
+    color: #FFD700;
+}
+
+.banner .wrapper .rating p {
+    font-weight: 700;
+}
+
+.features.section,
+.features.section .row.flex-col {
+    min-height: unset;
+}
+
+.features.section .item,
+.reviews.section .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: var(--boxShadow);
+}
+
+.features.section .item h3 {
+    font-size: 20px;
+}
+
+.features.section .item img,
+.reviews.section .item img {
+    max-width: 100px;
+}
+
+.reviews.section,
+.reviews.section .row.flex-col.center {
+    min-height: unset;
+}
+
+.reviews.section .item {
+    gap: 20px;
+}
+
+.reviews.section .item p {
+    font-size: 14px;
+}
+
+.reviews.section .author {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.reviews.section .rating i {
+    color: #FFD700;
+}
+
+.faq .wrapper {
+    width: 80%;
+}
+
+.form.section .form-wrapper {
+    width: 100%;
+}
