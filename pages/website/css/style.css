@@ -96,6 +96,10 @@
     margin-top: 10px;
 }
 
+.reviews.section .rating {
+    margin-top: 20px;
+}
+
 .reviews.section .rating i {
     color: #FFD700;
 }
