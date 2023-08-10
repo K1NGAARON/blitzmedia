@@ -3,6 +3,10 @@
     position: unset;
 }
 
+.header .container {
+    padding: 10px 0;
+}
+
 .banner.section,
 .banner.section .row {
     min-height: 70vh;
