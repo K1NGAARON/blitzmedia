@@ -161,6 +161,10 @@
         flex: 1 0 100%;
     }
 
+    .faq.section .wrapper .accordion-list .accordion-item {
+        flex: 1 0 100%;
+    }
+
     .faq .accordion-list .accordion-item .accordion-head h5 {
         font-size: 16px;
     }
