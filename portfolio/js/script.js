@@ -1,5 +1,19 @@
 const content = [
     {
+        title: "Website Ontwikkeling voor Retro Biketours Brugge",
+        tag: "website-development",
+        body: "",
+        img: "/blog/google-rankingsysteem/img/banner.jpg",
+        url: "/portfolio/retro-biketours/"
+    },
+    {
+        title: "Website Ontwikkeling voor Content Media",
+        tag: "website-development",
+        body: "",
+        img: "/blog/website-stand-bieden-competitie/img/banner.jpg",
+        url: "/portfolio/content-media/"
+    },
+    {
         title: "Gloednieuwe website voor Klimatherm",
         tag: "website-development",
         body: "Klimatherm is een loodgietersbedrijf dat bij ons aanklopte met verschillende uitdagingen. Ze hadden een onprofessionele uitstraling vanwege een gebrek aan merkidentiteit en website.",
