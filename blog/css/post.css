@@ -1,6 +1,10 @@
 .banner.section h1,
 .banner.section p {
-    max-width: 50%;
+    max-width: 60%;
+}
+
+.banner.section h1 {
+    font-size: 36px;
 }
 
 .content.section,

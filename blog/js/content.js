@@ -132,13 +132,13 @@ const content = [
         img: "/blog/google-rankingsysteem/img/banner.jpg",
         url: "/blog/google-rankingsysteem/",
     },
-    // {
-    //     title: "",
-    //     tag: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
+    {
+        title: "Een Online Kalender of Reservatiesysteem Integreren in Jouw Website",
+        tag: "website-development",
+        body: "",
+        img: "/blog/online-kalender-website/img/banner.jpg",
+        url: "/blog/online-kalender-website/",
+    },
     // {
     //     title: "",
     //     tag: "",
