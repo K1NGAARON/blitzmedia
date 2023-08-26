@@ -125,13 +125,13 @@ const content = [
         img: "/blog/scoren-in-google/img/banner.jpg",
         url: "/blog/scoren-in-google/",
     },
-    // {
-    //     title: "",
-    //     tag: "",
-    //     body: "",
-    //     img: "",
-    //     url: "",
-    // },
+    {
+        title: "Hoe werkt het rankingsysteem van Google?",
+        tag: "seo",
+        body: "Ontdek hoe het Google rankingsysteem werkt en leer hoe je kunt scoren in Google voor meer website bezoekers. Begrijp de essentiële factoren achter succesvolle online zichtbaarheid.",
+        img: "/blog/google-rankingsysteem/img/banner.jpg",
+        url: "/blog/google-rankingsysteem/",
+    },
     // {
     //     title: "",
     //     tag: "",
